@@ -11,15 +11,21 @@ header img {
 header h1 {
   margin-left: 20px;
   padding: 20px;
-  background-color:aquamarine;
-  color: white;
+  background-color:maroon;
+  color:white;
 }
 
 nav ul {
+  background-color: aquamarine;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style: none;
+}
+
+aside {
+  background-color: antiquewhite;
 }
 
 img {
