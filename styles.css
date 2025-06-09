@@ -80,26 +80,26 @@ footer {
 
 @media (max-width: 994px) {
   body {
-    font-size: 16px;
+    font-size: 1rem;
   }
   main {
       display: grid;
       grid-template-columns: 1fr;
   }
   button {
-    font-size: 18px;
+    font-size: 1.25rem;
   }
 }
 
 @media (min-width: 995px) {
   body {
-    font-size: 32px;
+    font-size: 2rem;
   }
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   button {
-    font-size: 48px;  
+    font-size: 3rem;  
   }
 }
