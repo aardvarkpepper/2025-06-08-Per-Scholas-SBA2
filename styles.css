@@ -68,3 +68,11 @@ img {
     font-size: 48px;  
   }
 }
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid green;
+}
