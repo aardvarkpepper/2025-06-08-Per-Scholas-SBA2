@@ -26,21 +26,34 @@ img {
   width: 100%;
   height: auto;
 }
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
+button:focus, a:focus, input:focus {
+  outline: 2px dashed blue;
+}
+
 .buttoncontainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#servicescontainer {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
 .serviceimage {
   display: block;
   margin: auto;
   width: 80%;
+}
+
+#servicescontainer {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 @media (max-width: 600px) {
@@ -67,12 +80,4 @@ img {
   button {
     font-size: 48px;  
   }
-}
-
-input:invalid {
-  border: 2px solid red;
-}
-
-input:valid {
-  border: 2px solid green;
 }
