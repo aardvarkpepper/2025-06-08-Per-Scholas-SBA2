@@ -14,23 +14,112 @@
       <img src="./logo.png" alt="Company Logo" />
       <h1>Accessible Design Co.</h1>
     </div>
-    <nav>
+    <nav role="navigation">
       <ul>
         <li>
           <a href="./index.html">Home</a>
         </li>
         <li>
-          <a href="./about.html">About Us</a>
+          <a href="#about">About Us</a>
         </li>
         <li>
-          <a href="./services.html">Services</a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="./contact.html">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
+  <main>
+    <section id="hero">
+      <img src="./placeholder-image.jpg" alt="Placeholder Image" />
+      <h1>Accessibility Is Awesome!</h1>
+      <p>Accessibility is awesome. So awesome you may want to press a button! So here one is!</p>
+      <div class="buttoncontainer">
+        <button>Call To Action!</button>
+      </div>
+    </section>
+    <section id="about">
+      <article>
+        <h2>
+          About Accessbile Design Co.
+        </h2>
+        <section>
+          <b>Accessbile Design Co.</b> was founded in 2025 when an instructor gave their class an assignment - to make
+          an awesomely accessible website!
+        </section>
+        <section>
+          Accepting this challenge, a intrepid team of developers founded this company and was about to build a website
+          when they were all sadly eaten by a grue. Fortunately, the grue read the documentation and was inspired to
+          start a career in web development!
+        </section>
+        <aside>
+          It is well known that grues live only To Serve Man (and Woman, and Other Delicious Entities)
+        </aside>
+      </article>
+    </section>
+    <section id="services">
+      <h2>
+        Services
+      </h2>
+      <section id="servicescontainer">
+        <section>
+          <h4>
+            Design and Build a Website
+          </h4>
+          <img class="serviceimage" src="./placeholder-image.jpg" alt="Placeholder image" />
+          <p>
+            We can design and build your website! Rest assured, all of our websites are built fully compliant with
+            international standards of accessibility.
+          </p>
+        </section>
+        <section>
+          <h4>
+            Redesign Existing Website
+          </h4>
+          <img class="serviceimage" src="./placeholder-image.jpg" alt="Placeholder image" />
+          <p>
+            We can redesign your existing website to be compliant with the Americans with Disabilities Act, European
+            Accessibility Act, conformant with WCAG 2.2 guidelines!
+          </p>
+        </section>
+        <section>
+          <h4>
+            Grue Removal Services
+          </h4>
+          <img class="" src="./placeholder-image.jpg" alt="Placeholder image" />
+          <p>
+            All on-site visits come with our complimentary grue removal services! Our discreet staff can dispose of
+            whatever items you may wish, at reasonable rates. Please be advised return of items is not possible as our
+            patent-pending environmentally friendly disposal processes do not allow it.
+          </p>
+        </section>
+      </section>
+    </section>
+    <section id="contact">
+      <form role="form" aria-label="Contact Form">
+        <label for="customername">Name:</label>
+        <br>
+        <input type="text" id="customername" name="customername" aria-describedby="Enter customer name">
+        <br>
+        <label for="customeremail">Email:</label>
+        <br>
+        <input type="email" id="customeremail" name="customeremail" aria-describedby="Enter customer email">
+        <br>
+        <label for="customersubject">Subject:</label>
+        <br>
+        <input type="text" id="customersubject" name="customersubject" aria-describedby="Enter subject of contact message">
+        <br>
+        <label for="customermessage">Message:</label>
+        <br>
+        <textarea id="customermessage" name="customermessage" rows="4" cols="50" aria-describedby="Enter contact message">
+        </textarea>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
 </body>
 
 </html>
